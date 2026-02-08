@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>physical · graphics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./assets/physical-graphics.css">
+  <link rel="stylesheet" href="./assets/font.css">
+  <script src="./assets/expanding-cards.js"></script>
+</head>
+
+<body class="w3-dark-grey">
+
+<!-- Sidebar/menu -->
+<!-- <nav class="w3-red w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>Company<br>Name</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> 
+    <a href="https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a> 
+    <a href="https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Designers</a> 
+    <a href="https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a> 
+    <a href="https://www.w3schools.com/w3css/tryw3css_templates_interior_design.htm#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav> -->
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-black-transparent w3-xlarge w3-padding">
+  <span class="header_brand">physical<span class="tiny5"><span class="header_dot">·</span>graphics</span></span>
+  <!-- <a href="javascript:void(0)" class="w3-button w3-margin-right" onclick="w3_open()">☰</a> -->
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<!-- <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div> -->
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:0px;margin-right:0px">
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:120px">
+    <h1>Research & Development Consulting<span class="tiny5"> :</span></h1>
+    <h2>Automotive Concept Engineering & Ergonomics</h2>
+    <h2>Physics-Based Simulation & Visualisation</h2>
+    <h2>Python & C++ Software Development</h2>
+  </div>
+
+  <!-- Divider -->
+  <div class="w3-container" style="margin-top:50px"></div>
+
+  <!-- Cards -->
+  <div class="w3-row-padding">
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <!-- <img id="thumb" src="./assets/team1.jpg" alt="Jane" style="width:100%"> -->
+        <video width="100%" controls="true"> <source src="./assets/bullet-vred.mp4"/> </video> 
+        <!-- <video width="100%" controls="true"> <source src="D:\Alan\OneDrive\Careers\Portfolio\assets\Drive Story Complete.mp4"/> </video>  -->
+        <div class="thumb-label">
+          <h3 id="title">Real-time Multibody Physics in VR</h3>
+          <h4 id="caption">Robotics-grade interactive simulation in Virtual Reality</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <img src="./assets/para_pkg.png" alt="Parametric Package" style="width:100%">
+        <div class="thumb-label">
+          <h3 id="title">Intelligent Interactive Vehicle Definition</h3>
+          <h4 id="caption">Modular parametric tools give 80% efficiency improvement</h4>
+          <h4 id="detail-caption" class="detail"><p>This intelligent semi-automatic toolset has been developed and applied in several OEMs for over a decade.</p>
+                                                <p>Modular construction gives high quality layout and hardpoint definition very quickly and with low risk of error.</p>
+                                                <p>Described as 'running rings around' other in-house or commercial tools.</p></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <!-- <img id="thumb" src="./assets/team1.jpg" alt="Jane" style="width:100%"> -->
+        <video width="100%" controls="true"> <source src="./assets/vr-business.mp4"/> </video> 
+        <!-- <video width="100%" controls="true"> <source src="D:\Alan\OneDrive\Careers\Portfolio\assets\Drive Story Complete.mp4"/> </video>  -->
+        <div class="thumb-label">
+          <h3 id="title">Virtual Reality for Business</h3>
+          <h4 id="caption">Evaluate customer experience in richly detailed context, quickly</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-container"></div>
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <img src="./assets/trunk-ergo.png" alt="Trunk Loading Ergonomics" style="width:100%">
+        <div class="thumb-label">
+          <h3 id="title">Ergonomics Definition and Evaluation</h3>
+          <h4 id="caption">Rubust evaluation methods for actionable feedback</h4>
+          <h4 id="detail-caption" class="detail"><p>Testing design proposals with diverse groups of participants remains the richest source of feedback</p>
+                              <p>Carefully-developed evaluation and measuring methods are efficient and comfortable for users</p>
+                            <p>Meaningful results cascade from immediate summary view to detailed multi-dimensional analysis</p></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <img src="./assets/vr-buck.png" alt="User Evaluation in VR with Physical Buck" style="width:100%">
+        <div class="thumb-label">
+          <h3 id="title">Virtual Reality with Physical Context</h3>
+          <h4 id="caption">Accurately aligned realities for grounded immersion</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <img src="./assets/hud-optics-cards.png" alt="HUD Ray-Tracing in CAD and Python" style="width:100%">
+        <div class="thumb-label">
+          <h3 id="title">HUD Perception Simulation</h3>
+          <h4 id="caption">Tools in Python & CAD to optimise performance and cost</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-container"></div>
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <video width="100%" controls="true"> <source src="./assets/mr-car.mp4"/> </video>
+        <div class="thumb-label">
+          <h3 id="title">Real-World Mixed Reality User Testing</h3>
+          <h4 id="caption">Previewing the user experience of riding in autonomous vehicles</h4>
+          <h4 id="detail-caption" class="detail"><p>This capture is from early development of hand and mask tracking, without sensitive client data.</p>
+                                                <p>The finished experience, usig Varjo XR3 with ART and LP-VR tracking, allowed users to forget the human driver completely.</p>
+                                                <p>Feedback and motion capture analysis from this experiment yielded valuable insight.</p></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <img src="./assets/tjre-plot-render.svg" alt="TJRE - Realistic Tyre/Tire Modelling" style="width:100%">
+        <div class="thumb-label">
+          <h3 id="title">TJRE - Realistic Modelling Tool in Catia & Blender</h3>
+          <h4 id="caption">NURBs & Sub-D developed to ISO 4000-1 based on 42 real tyres</h4>
+          <h4 id="detail-caption" class="detail"><p>ISO 4000-1 and ETRTO definitions used alone give unconvincing and inaccurate volumes for packaging and visualisation uses.</p>
+                                                <p>This carefully-reasearched modelling tool generate dimensionally and visually accurate tyre models. </p>
+                                                <p>Inflated form is represented realisically, with intuitive control of basic parameters and features like rim protect.</p></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <video width="100%" controls="true"> <source src="./assets/eye-track-pillar.mp4"/> </video>
+        <div class="thumb-label">
+          <h3 id="title">Augmented Reality Invisible A-Pillar</h3>
+          <h4 id="caption">Embedded C++ development with eye tracking to reveal hazards</h4>
+          <h4 id="detail-caption" class="detail"><p>The pillars either side of the windshield block a significant part of the driver's view.</p>
+                                                <p>This solution uses ray tracing from the tracked driver's eyes to crop and transform the feed from an external camera.</p>
+                                                <p>Running at 45Hz with a bespoke eye-tracking method for robustness, this felt really wonderful when driving.</p></h4>
+        </div>
+      </div>
+    </div>
+    
+    <div class="w3-container"></div>
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <video width="100%" controls="true"> <source src="./assets/proc-gis-audio.mp4"/> </video>
+        <div class="thumb-label">
+          <h3 id="title">Procedural Reproduction of Real Landscapes</h3>
+          <h4 id="caption">Multiple GIS sources upsampled with bespoke Python tooling</h4>
+          <h4 id="detail-caption" class="detail"><p>DEFRA aerial LiDAR scan (1m res.) and colour satellite imagery (0.1m res.) aligned by georeferencing.</p>
+                                                <p>Additional geometry detail inferred by image processing of height field together with colour imagery.</p>
+                                                <p>Output as UV-mapped mesh tiles from automated Python pipeline.</p></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <video width="100%" controls="true"> <source src="./assets/ermd-etron.mp4"/> </video>
+        <div class="thumb-label">
+          <h3 id="title">Simulation of Mirror-Replacement Display</h3>
+          <h4 id="caption">Visualisation of performance for ECE R45 and ISO 16505-2</h4>
+          <h4 id="detail-caption" class="detail"><p>Homologation requirements are calculated in video frame by reverse-engineering and construction in Catia.</p>
+                                                <p>Synchronised video feeds are transformed into correct relationship with CAD capture of interior to form cohesive view for evaluation.</p>
+                                                <p>This example is a reference reconstruction of a prior car in market. Project reviews included adapting this data for VR viewing.</p></h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col m4 w3-margin-bottom thumb-card" onclick="cardOpen(this)">
+      <div class="card-transparent">
+        <video width="100%" controls="true"> <source src="./assets/vr-entertainment.mp4"/> </video>
+        <div class="thumb-label">
+          <h3 id="title">Entertaining Spatial Tricks in Virtual Reality</h3>
+          <h4 id="caption">A seasonal demonstration of the lighter side of VR</h4>
+          <h4 id="detail-caption" class="detail"><p>This little scene was huge fun to develop and to share with users.</p>
+                                                <p>Collaboratively developed in a small team to submit as our entry in a departmental christmas tree competition.</p>
+                                                <p>Simple story and a Narnia-esque spatial surprise, with atmospheric audio, gave a lovely user experience.</p></h4>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1>Contact & Connect<span class="tiny5"> :</span></h1>
+    <h2>Reach out to discuss potential projects, to enquire about using my tools & methods, or just to chat nerd<span class="tiny5"> ...</span></h2>
+    <br><br>
+    <div class="w3-col m4 w3-margin-bottom w3-center">
+      <a href="mailto:physical.graphics@outlook.com"><h2><img style="width:20%" src="./assets/mailsquare.svg"><br>Email</h2></a>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom w3-center">
+      <a href="https://github.com/physical-graphics"><h2><img style="width:20%" src="./assets/github.svg"><br>Github</h2></a>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom w3-center">
+      <a href="https://www.linkedin.com/in/alan-ramsay-a50a8a5/"><h2><img style="width:20%" src="./assets/linkedin.svg"><br>LinkedIn</h2></a>
+    </div>
+  </div>
+
+
+  <!-- Template for full size images on click-->
+  <div id="detail-view" class="detail-view w3-black-transparent" style="padding-top: 110px; display: none; border: solid red" onclick="cardClose(this)">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="detail-view-content w3-animate-zoom w3-transparent">
+      <!-- <img class="w3-image" src="./assets/livingroom.jpg">
+      <video class="w3-image"><source src=""></video> -->
+      <h3 id="detail-title">Title</h3>
+      <h4 id="detail-caption">Some extra words</h4>
+    </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-black w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+  <div class="w3-col m4 w3-margin-bottom  w3-center" onclick="cardOpen(this)">
+    <p>&copy physical.graphics Ltd 2026</p>
+  </div>  <div class="w3-col m4 w3-margin-bottom  w3-center" onclick="cardOpen(this)">
+    <p>Registered in England and Wales</p>
+  </div>
+    <div class="w3-col m4 w3-margin-bottom  w3-center" onclick="cardOpen(this)">
+    <p>Company Number 16957883</p>
+  </div>
+</div>
+
+</body></html>

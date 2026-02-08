@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Funnel Display Light";
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  src: "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300";
+}
+
+@font-face {
+  font-family: "Funnel Display Regular";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  src: "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@400";
+}
+
+@font-face {
+  font-family: "Funnel Display Medium";
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  src: "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@500";
+}
+
+@font-face {
+  font-family: "Funnel Display SemiBold";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  src: "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@600";
+}
+
+@font-face {
+  font-family: "Funnel Display Bold";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  src: "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800";
+}
+
+@font-face {
+  font-family: "Tiny5";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  src: "https://fonts.googleapis.com/css2?family=Tiny5&display=swap";
+}

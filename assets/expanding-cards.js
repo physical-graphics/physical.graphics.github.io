@@ -3,6 +3,7 @@ var current_thumb = null
 function cardOpen(element) {
   current_thumb=element
   var detail_template = document.getElementById("detail-view");
+  var detail_content = document.getElementById("detail-content");
   var titleText = detail_template.querySelector("#detail-title");
   var captionText = detail_template.querySelector("#detail-caption");
   var detail_video = detail_template.querySelector("video");
@@ -17,10 +18,9 @@ function cardOpen(element) {
   // Handle either video or image content
   try{
     var thumb_video = element.querySelector("video");
-    detail_template.prepend(thumb_video.cloneNode(true));
+    detail_content.prepend(thumb_video.cloneNode(true));
     thumb_video.pause();
-    detail_template.querySelector("video")
-    var detail_video = detail_template.querySelector("video");
+    var detail_video = detail_content.querySelector("video");
     detail_video.currentTime = thumb_video.currentTime.toString()
     detail_video.play()
     detail_video.muted=thumb_video.muted
@@ -28,7 +28,7 @@ function cardOpen(element) {
   }
   catch{
     var this_image = element.querySelector("img");
-    detail_template.prepend(this_image.cloneNode(true));
+    detail_content.prepend(this_image.cloneNode(true));
   }
   
   var new_title = element.querySelector("#title").innerHTML;

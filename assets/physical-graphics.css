@@ -25,8 +25,8 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 html,body{font-family:"Funnel Display",sans-serif; font-weight:300; font-size:15px; color: #bbbbbb; line-height:1.5}
 html{overflow-x:hidden}
-h1{font-family:"Funnel Display", sans-serif; font-weight:500; font-size:clamp(1.5rem, 2vw, 32px); margin: 0px 20px; color:#eeeeee}
-h2{font-family:"Funnel Display",sans-serif; font-weight:300; font-size:18px; margin: 0px 40px}
+h1{font-family:"Funnel Display", sans-serif; font-weight:500; font-size:clamp(1.2rem, 4.5vw, 32px); margin: 0px 20px; color:#eeeeee}
+h2{font-family:"Funnel Display",sans-serif; font-weight:300; font-size:clamp(0.8rem, 3vw, 18px); margin: 0px 40px}
 h3{font-weight:500 ;font-size:18px; margin-left: 5px}
 h4{font-weight:400; font-size:16px; margin-left: 15px; opacity:0.7}
 h5{font-size:18px; margin-left: 0px}

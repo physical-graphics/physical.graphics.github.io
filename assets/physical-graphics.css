@@ -40,6 +40,7 @@ figcaption{position: relative; top:-100%; width:100%; height:100%; background-co
 .header_brand {font-family:"Funnel Display", sans-serif; font-weight:600; font-size:clamp(3rem, 10vw, 4rem); opacity: 1.0; color:#f6d809}
 .header_dot {margin-left: 5px}
 .tiny5 {font-family:"Tiny5", sans-serif; font-weight:300; color:#c81c82}
+.bullet_dot {margin-left:-0.5em; margin-right:0.5em}
 .thumb-card:hover {cursor:zoom-in}
 .thumb-label {padding:0.01em 16px; color: #000000;}
 .card-transparent,.w3-hover-light-transparent:hover{color:#000!important;background-color:#ffffff70!important}

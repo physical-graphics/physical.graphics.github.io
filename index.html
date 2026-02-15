@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Tiny5&display=swap" rel="stylesheet">
+  <link rel="icon" id="favicon" href="./assets/favicon-04.svg">
   <!-- <link rel="stylesheet" href="./assets/font.css"> -->
   <script src="./assets/expanding-cards.js"></script>
 </head>
@@ -32,8 +33,9 @@
 
 <!-- Top menu on small screens -->
 <header class="w3-container w3-top w3-black-transparent w3-xlarge w3-padding">
-  <span class="header_brand">physical<span class="tiny5"><span class="header_dot">·</span>graphics</span></span>
-  <!-- <a href="javascript:void(0)" class="w3-button w3-margin-right" onclick="w3_open()">☰</a> -->
+  <span class="header_brand">physical<span class="tiny5"><span class="header_dot">·</span>graphics</span>
+  <!-- <img src="./assets/favicon-04.svg" style="height:1em; top:50%; bottom:50%; position:relative; float:right; transform: translate(0%, 40%)"> -->
+</span>
 </header>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -45,11 +47,13 @@
   <!-- Services -->
   <div class="w3-container" id="services" style="margin-top:120px">
     <h1>Research & Development Consulting<span class="tiny5"> :</span></h1>
-    <h2><ul><li>Automotive Concept Engineering</li>
+    <h2><ul>
+      <li>Automotive Concept Engineering</li>
       <li>Ergonomics & User Experience</li>
       <li>Real-Time Physics Simulation</li>
       <li>Virtual & Mixed Reality</li>
-      <li>Python & C++ Development</li></ul></h2>
+      <li>Python & C++ Development</li>
+    </ul></h2>
   </div>
 
   <!-- Divider -->
@@ -66,6 +70,10 @@
         <div class="thumb-label">
           <h3 id="title">Real-time Multibody Physics in VR</h3>
           <h4 id="caption">Robotics-grade interactive simulation in Virtual Reality</h4>
+          <h3 id="detail-caption" class="detail"><ul>
+            <li>Interactive virtual & mixed reality experiences are richer and more useful with authentic physics.</li>
+            <li>Robotics-grade physics engines such as Bullet or Mujoco offer accurate simulation of complex systems in real-time.</li>
+            <li>Bringing this realism to high-quality visualisation platforms like Autodesk VRED gives a seriously vivid experience.</li></ul></h3>
         </div>
       </div>
     </div>
@@ -76,9 +84,10 @@
         <div class="thumb-label">
           <h3 id="title">Intelligent Interactive Vehicle Definition</h3>
           <h4 id="caption">Modular parametric tools give 80% efficiency improvement</h4>
-          <h4 id="detail-caption" class="detail"><p>This intelligent semi-automatic toolset has been developed and applied in several OEMs for over a decade.</p>
-                                                <p>Modular construction gives high quality layout and hardpoint definition very quickly and with low risk of error.</p>
-                                                <p>Described as 'running rings around' other in-house or commercial tools.</p></h4>
+          <h4 id="detail-caption" class="detail"><ul>
+            <li>This intelligent semi-automatic toolset has been developed and applied in several OEMs for over a decade.</li>
+            <li>Modular construction gives high quality layout and hardpoint definition very quickly and with low risk of error.</li>
+            <li>Described as 'running rings around' other in-house or commercial tools.</li></ul></h4>
         </div>
       </div>
     </div>
@@ -91,6 +100,10 @@
         <div class="thumb-label">
           <h3 id="title">Virtual Reality for Business</h3>
           <h4 id="caption">Evaluate customer experience in richly detailed context, quickly</h4>
+          <h4 id="detail-caption" class="detail"><ul>
+            <li>Virtual reality can bring value through clarity, engagement and ownership, across many business areas.</li>
+            <li>These demos were developed collaboratively with a team at SAIC Motors UK Ltd to explore application possibilities.</li>
+            <li>For many projects in early stages, virtual reality is the only way to achieve this level of fidelity and therefore decision quality.</li></ul></h4>
         </div>
       </div>
     </div>
@@ -103,9 +116,11 @@
         <div class="thumb-label">
           <h3 id="title">Ergonomics Definition and Evaluation</h3>
           <h4 id="caption">Rubust evaluation methods for actionable feedback</h4>
-          <h4 id="detail-caption" class="detail"><p>Testing design proposals with diverse groups of participants remains the richest source of feedback</p>
-                              <p>Carefully-developed evaluation and measuring methods are efficient and comfortable for users</p>
-                            <p>Meaningful results cascade from immediate summary view to detailed multi-dimensional analysis</p></h4>
+          <h4 id="detail-caption" class="detail"><ul>
+            <li>Testing design proposals with diverse groups of participants remains the richest source of feedback.</li>
+            <li>Carefully-developed evaluation and measuring methods are efficient and comfortable for users.</li>
+            <li>Meaningful results cascade from immediate summary view to detailed multi-dimensional analysis.</li>
+          </ul></h4>
         </div>
       </div>
     </div>
@@ -116,6 +131,11 @@
         <div class="thumb-label">
           <h3 id="title">Virtual Reality with Physical Context</h3>
           <h4 id="caption">Accurately aligned realities for grounded immersion</h4>
+          <h4 id="detail-caption" class="detail"><ul>
+            <li>Virtual reality offers high visual fidelity, sophisticated interacticity and realistic context for evaluating many types of product, early and quickly.</li>
+            <li>Here, the minimal set of physical contact points of a car cockpit are built as an adjustable test rig, to give correct posture and viewpoint.</li>
+            <li>The virtual experience is tied to the physical elements by object tracking and by an automated tracking system calibration script.</li>
+          </ul></h4>
         </div>
       </div>
     </div>
@@ -125,7 +145,12 @@
         <img src="./assets/hud-optics-cards.png" alt="HUD Ray-Tracing in CAD and Python" style="width:100%">
         <div class="thumb-label">
           <h3 id="title">HUD Perception Simulation</h3>
-          <h4 id="caption">Tools in Python & CAD to optimise performance and cost</h4>
+          <h4 id="caption">Complex optics don't have to mean 'mysterious'!</h4>
+          <h4 id="detail-caption" class="detail"><ul>
+            <li>These complex optical devices work in unintuitive ways, so integration in your vehicle can feel like a guessing game.</li>
+            <li>These tools, built in Catia and Python, analyse the 3D image appearance for each driver, and the performance of anti-glare measures.</li>
+            <li>The results of the intensive ray-traced analysis can be baked into shaders for real-time evaluation in virtual reality.</li>
+          </ul></h4>
         </div>
       </div>
     </div>
@@ -138,9 +163,11 @@
         <div class="thumb-label">
           <h3 id="title">Real-World Mixed Reality User Testing</h3>
           <h4 id="caption">Previewing the user experience of riding in autonomous vehicles</h4>
-          <h4 id="detail-caption" class="detail"><p>This capture is from early development of hand and mask tracking, without sensitive client data.</p>
-                                                <p>The finished experience, usig Varjo XR3 with ART and LP-VR tracking, allowed users to forget the human driver completely.</p>
-                                                <p>Feedback and motion capture analysis from this experiment yielded valuable insight.</p></h4>
+          <h4 id="detail-caption" class="detail"><ul>
+            <li>This capture is from early development of hand and mask tracking, without sensitive client data.</li>
+            <li>The finished experience, using Varjo XR3 with ART and LP-VR tracking, allowed users to forget the human driver completely.</li>
+            <li>Feedback and motion capture analysis from this experiment yielded valuable insight.</li>
+          </ul></h4>
         </div>
       </div>
     </div>
@@ -151,9 +178,11 @@
         <div class="thumb-label">
           <h3 id="title">TJRE - Realistic Modelling Tool in Catia & Blender</h3>
           <h4 id="caption">NURBs & Sub-D developed to ISO 4000-1 based on 42 real tyres</h4>
-          <h4 id="detail-caption" class="detail"><p>ISO 4000-1 and ETRTO definitions alone give unconvincing and inaccurate volumes for packaging and visualisation.</p>
-                                                <p>This carefully-reasearched modelling tool generates dimensionally- and visually-accurate tyre models. </p>
-                                                <p>Inflated form is represented realisically, with intuitive control of basic parameters and features like rim protect.</p></h4>
+          <h4 id="detail-caption" class="detail"><ul>
+            <li>ISO 4000-1 and ETRTO definitions give only simplistic volumes for packaging and visualisation.</li>
+            <li>This carefully-reasearched modelling tool generates dimensionally- and visually-accurate tyre models.</li>
+            <li>Inflated form is represented realisically, with intuitive control of basic parameters and features like rim protect.</li>
+          </ul></h4>
         </div>
       </div>
     </div>
@@ -164,9 +193,11 @@
         <div class="thumb-label">
           <h3 id="title">Augmented Reality Invisible A-Pillar</h3>
           <h4 id="caption">Embedded C++ development with eye tracking to reveal hazards</h4>
-          <h4 id="detail-caption" class="detail"><p>The pillars either side of the windshield block a significant part of the driver's view.</p>
-                                                <p>This solution uses ray tracing from the tracked driver's eyes to crop and transform the feed from an external camera.</p>
-                                                <p>Running at 45Hz with a bespoke eye-tracking method for robustness, this felt really wonderful when driving.</p></h4>
+          <h4 id="detail-caption" class="detail"><ul>
+            <li>The pillars either side of the windshield block a significant part of the driver's view.</li>
+            <li>This solution uses ray tracing from the tracked driver's eyes to crop and transform the feed from an external camera.</li>
+            <li>Running at 45Hz with a bespoke eye-tracking method for robustness, this felt really wonderful when driving.</li>
+          </ul></h4>
         </div>
       </div>
     </div>
@@ -179,9 +210,11 @@
         <div class="thumb-label">
           <h3 id="title">Procedural Reproduction of Real Landscapes</h3>
           <h4 id="caption">Multiple GIS sources upsampled with bespoke Python tooling</h4>
-          <h4 id="detail-caption" class="detail"><p>DEFRA aerial LiDAR scan (1m res.) and colour satellite imagery (0.1m res.) aligned by georeferencing.</p>
-                                                <p>Additional geometry detail inferred by image processing of height field together with colour imagery.</p>
-                                                <p>Output as UV-mapped mesh tiles from automated Python pipeline.</p></h4>
+          <h4 id="detail-caption" class="detail"><ul>
+            <li>DEFRA aerial LiDAR scan (1m res.) and colour satellite imagery (0.1m res.) are combined and aligned by georeferencing.</li>
+            <li>Additional geometry detail is inferred by image processing of height field together with colour imagery.</li>
+            <li>Automated Python pipeline outputs UV-mapped mesh tiles and detailed heightmap tiles for visual and physics use.</li>
+          </ul></h4>
         </div>
       </div>
     </div>
@@ -192,9 +225,11 @@
         <div class="thumb-label">
           <h3 id="title">Simulation of Mirror-Replacement Display</h3>
           <h4 id="caption">Visualisation of performance for ECE R45 and ISO 16505-2</h4>
-          <h4 id="detail-caption" class="detail"><p>Homologation requirements are calculated in video frame by reverse-engineering and construction in Catia.</p>
-                                                <p>Synchronised video feeds are transformed into correct relationship with CAD capture of interior to form cohesive view for evaluation.</p>
-                                                <p>This example is a reference reconstruction of a prior car in market. Project reviews included adapting this data for VR viewing.</p></h4>
+          <h4 id="detail-caption" class="detail"><ul>
+            <li>Homologation requirements are calculated in video frame by reverse-engineering and construction in Catia.</li>
+            <li>Synchronised video feeds are transformed into correct relationship with CAD capture of interior to form cohesive view for evaluation.</li>
+            <li>This example is a reference reconstruction of a prior car in market. Project reviews included adapting this data for VR viewing.</li>
+          </ul></h4>
         </div>
       </div>
     </div>
@@ -205,9 +240,11 @@
         <div class="thumb-label">
           <h3 id="title">Spatial Entertainment in Virtual Reality</h3>
           <h4 id="caption">A seasonal demonstration of the lighter side of VR</h4>
-          <h4 id="detail-caption" class="detail"><p>This little scene was huge fun to develop and to share with users.</p>
-                                                <p>Collaboratively developed in a small team to submit as our entry in a departmental christmas tree competition.</p>
-                                                <p>Simple story and a Narnia-esque spatial surprise, with atmospheric audio, gave a lovely user experience.</p></h4>
+          <h4 id="detail-caption" class="detail"><ul>
+            <li>This little scene was huge fun to develop and to share with users.</li>
+            <li>Collaboratively developed in a small team at SAIC Motors UK Ltd as our entry in a departmental christmas tree competition.</li>
+            <li>Simple story combines with a Narnia-esque spatial surprise and atmospheric audio to give a lovely user experience.</li>
+          </ul></h4>
         </div>
       </div>
     </div>
@@ -218,22 +255,26 @@
   <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:75px">
     <h1>Contact & Connect<span class="tiny5"> :</span></h1>
-    <h2>Reach out to discuss potential projects, to enquire about using my tools & methods, or just to chat nerd<span class="tiny5"> ...</span></h2>
+    <h2><ul>
+      <li>Reach out to discuss potential projects,</li>
+      <li>to enquire about using my tools & methods, </li>
+      <li>or just to chat nerd<span class="tiny5"> ...</span></li>
+    </ul></h2>
     <br><br>
     <div class="one-third w3-center">
-      <a href="mailto:physical.graphics@outlook.com"><h2><img style="width:20%" src="./assets/mailsquare.svg"><br>Email</h2></a>
+      <a class="clean-link" href="mailto:physical.graphics@outlook.com"><img class="contact-icon" src="./assets/mailsquare.svg"><p>Email</p></a>
     </div>
     <div class="one-third w3-center">
-      <a href="https://github.com/physical-graphics"><h2><img style="width:20%" src="./assets/github.svg"><br>Github</h2></a>
+      <a class="clean-link" href="https://github.com/physical-graphics"><img class="contact-icon" src="./assets/github.svg"><p>Github</p></a>
     </div>
     <div class="one-third w3-center">
-      <a href="https://www.linkedin.com/in/alan-ramsay-a50a8a5/"><h2><img style="width:20%" src="./assets/linkedin.svg"><br>LinkedIn</h2></a>
+      <a class="clean-link" href="https://www.linkedin.com/in/alan-ramsay-a50a8a5/"><img class="contact-icon" src="./assets/linkedin.svg"><p>LinkedIn</p></a>
     </div>
   </div>
 
 
   <!-- Template for full size images on click-->
-  <div id="detail-view" class="detail-view w3-black-transparent" style="padding-top: 110px; display: none" onclick="cardClose(this)">
+  <div id="detail-view" class="detail-view w3-black-transparent" style="display: none" onclick="cardClose(this)">
     <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
     <div id=detail-content class="detail-view-content w3-animate-zoom w3-transparent">
       <!-- <img class="w3-image" src="./assets/livingroom.jpg">
@@ -247,16 +288,16 @@
 </div>
 
 <!-- W3.CSS Container -->
-<div class="w3-black w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+<div class="w3-black w3-container w3-padding-32" style="margin-top:75px">
   
-  <div class="w3-col m4 w3-margin-bottom  w3-center">
+  <div class="w3-col m4 w3-center footer-text">
     <p>&copy physical.graphics Ltd 2026</p>
   </div>  
   
-  <div class="w3-col m4 w3-margin-bottom  w3-center">
+  <div class="w3-col m4 w3-center footer-text">
     <p>Registered in England and Wales</p>
   </div>
-    <div class="w3-col m4 w3-margin-bottom  w3-center">
+    <div class="w3-col m4 w3-center footer-text">
     <p>Company Number 16957883</p>
   </div>
 </div>

@@ -40,15 +40,17 @@ figcaption{position: relative; top:-100%; width:100%; height:100%; background-co
 .header_brand {font-family:"Funnel Display", sans-serif; font-weight:600; font-size:clamp(3rem, 10vw, 4rem); opacity: 1.0; color:#f6d809}
 .header_dot {margin-left: 5px}
 .tiny5 {font-family:"Tiny5", sans-serif; font-weight:300; color:#c81c82}
-.bullet_dot {margin-left:-0.5em; margin-right:0.5em; -webkit-appearance: none;}
-ul{list-style-position: outside; margin: 0; padding: 0;}
-li::marker {content:"\25AA\fe0e  "; color:#c81c82}
+ul{list-style-position: outside; margin: 0em; padding: 0;}
+li::marker {content:"\25AA\fe0e   "; color:#c81c82; -webkit-appearance: none}
 .thumb-card:hover {cursor:zoom-in}
 .thumb-label {padding:0.01em 16px; color: #000000;}
 .card-transparent,.w3-hover-light-transparent:hover{color:#000!important;background-color:#ffffff70!important}
 .detail {display:none}
-.detail-view{cursor:zoom-out; z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgba(0,0,0,0.4)}
+.detail-view{cursor:zoom-out; z-index:3;display:none;padding-top:20px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgba(0,0,0,0.4)}
 .detail-view-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:100%}
+.contact-icon {width:clamp(0px, 12vw, 5vh); opacity: 0.6}
+.clean-link {text-decoration:none;}
+.footer-text {padding:0; margin:0}
 .one-third {float:left; width:33.3%}
 .w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 .w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:zoom-in}

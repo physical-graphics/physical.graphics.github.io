@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Live" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #f6d809;
+      }
+
+      .cls-5 {
+        font-size: 109.41px;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        fill: #d34798;
+      }
+
+      .cls-5, .cls-11, .cls-12, .cls-13 {
+        font-family: Tiny5-Regular, Tiny5;
+      }
+
+      .cls-2 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-3 {
+        font-family: FunnelDisplay-SemiBold, 'Funnel Display';
+        font-size: 107.21px;
+        font-weight: 600;
+        letter-spacing: -.31em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        font-size: 114.17px;
+      }
+
+      .cls-9 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-4 {
+        letter-spacing: -.25em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-12 {
+        font-size: 113.89px;
+      }
+
+      .cls-13 {
+        font-size: 132.84px;
+      }
+    </style>
+  </defs>
+  <g id="p_._g_baselined_tight" data-name="p . g baselined tight">
+    <text transform="translate(-2.82 66.9)"><tspan><tspan class="cls-3" x="0" y="0">p</tspan><tspan class="cls-5" x="34.49" y="7.97">·g</tspan></tspan></text>
+  </g>
+  <g id="more_than_int" data-name="more than int">
+    <text class="cls-11" transform="translate(-94.86 85.66)"><tspan class="cls-1" x="0" y="0">&gt;</tspan><tspan class="cls-8" x="42.93" y="0">∫</tspan></text>
+  </g>
+  <g id="more_than_sum" data-name="more than sum">
+    <text class="cls-12" transform="translate(-14.38 -16.96)"><tspan class="cls-9" x="0" y="0"> </tspan><tspan class="cls-2" x="14.46" y="0">&gt;</tspan><tspan class="cls-6" x="57.4" y="0">∑</tspan></text>
+  </g>
+  <g id="more_than_tight" data-name="more than tight">
+    <text class="cls-13" transform="translate(-118.74 -10.54)"><tspan class="cls-10" x="0" y="0"> </tspan><tspan class="cls-4" x="16.87" y="0">&gt;</tspan><tspan class="cls-7" x="50.21" y="0">∑</tspan></text>
+  </g>
+</svg>

@@ -48,7 +48,8 @@ li::marker {content:"\25AA\fe0e   "; color:#c81c82; -webkit-appearance: none}
 .detail {display:none}
 .detail-view{cursor:zoom-out; z-index:3;display:none;padding-top:20px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgba(0,0,0,0.4)}
 .detail-view-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:100%}
-.contact-icon {width:clamp(0px, 12vw, 5vh); opacity: 0.6}
+.attrib {font-style:italic; color:#bbbbbb66}
+.contact-icon {width:clamp(0px, 12vw, 5vh); opacity: 0.8}
 .clean-link {text-decoration:none;}
 .footer-text {padding:0; margin:0}
 .one-third {float:left; width:33.3%}

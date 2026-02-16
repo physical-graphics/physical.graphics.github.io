@@ -40,6 +40,7 @@ figcaption{position: relative; top:-100%; width:100%; height:100%; background-co
 .header_brand {font-family:"Funnel Display", sans-serif; font-weight:600; font-size:clamp(3rem, 10vw, 4rem); opacity: 1.0; color:#f6d809}
 .header_dot {margin-left: 5px}
 .tiny5 {font-family:"Tiny5", sans-serif; font-weight:300; color:#c81c82}
+.yellow-bold {font-weight:900; color:#f6d809}
 ul{list-style-position: outside; margin: 0em; padding: 0;}
 li::marker {content:"\25AA\fe0e   "; color:#c81c82; -webkit-appearance: none}
 .thumb-card:hover {cursor:zoom-in}

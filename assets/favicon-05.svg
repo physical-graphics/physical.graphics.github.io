@@ -3,109 +3,22 @@
   <defs>
     <style>
       .cls-1 {
-        letter-spacing: -.12em;
-      }
-
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
-        fill: #f6d809;
-      }
-
-      .cls-7 {
-        font-size: 109.41px;
-      }
-
-      .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15 {
         fill: #d34798;
       }
 
-      .cls-7, .cls-16, .cls-17, .cls-18, .cls-19, .cls-14 {
-        font-family: Tiny5-Regular, Tiny5;
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
       }
 
       .cls-2 {
-        letter-spacing: -.12em;
-      }
-
-      .cls-3 {
-        font-size: 107.21px;
-        letter-spacing: -.31em;
-      }
-
-      .cls-3, .cls-6 {
-        font-family: FunnelDisplay-SemiBold, 'Funnel Display';
-        font-weight: 600;
-      }
-
-      .cls-9 {
-        letter-spacing: 0em;
-      }
-
-      .cls-4 {
-        letter-spacing: -.37em;
-      }
-
-      .cls-16 {
-        font-size: 159.81px;
-      }
-
-      .cls-10 {
-        letter-spacing: 0em;
-      }
-
-      .cls-11 {
-        letter-spacing: 0em;
-      }
-
-      .cls-17, .cls-14, .cls-6 {
-        font-size: 114.17px;
-      }
-
-      .cls-12 {
-        letter-spacing: -.12em;
-      }
-
-      .cls-5 {
-        letter-spacing: -.25em;
-      }
-
-      .cls-13 {
-        letter-spacing: -.12em;
-      }
-
-      .cls-18 {
-        font-size: 113.89px;
-      }
-
-      .cls-19 {
-        font-size: 132.84px;
-      }
-
-      .cls-15 {
-        letter-spacing: -.12em;
-      }
-
-      .cls-6 {
-        letter-spacing: -.07em;
+        fill: #f6d809;
       }
     </style>
   </defs>
-  <g id="p_._g_baselined_tight" data-name="p . g baselined tight">
-    <text transform="translate(99.25 66.9)"><tspan><tspan class="cls-3" x="0" y="0">p</tspan><tspan class="cls-7" x="34.49" y="7.97">·g</tspan></tspan></text>
-  </g>
   <g id="more_than_int" data-name="more than int">
-    <text class="cls-17" transform="translate(7.21 85.66)"><tspan class="cls-1" x="0" y="0">&gt;</tspan><tspan class="cls-10" x="42.93" y="0">∫</tspan></text>
-  </g>
-  <g id="more_than_int_funn" data-name="more than int funn">
-    <text class="cls-6" transform="translate(-106.06 98.89) scale(1 1.28)"><tspan x="0" y="0">&gt;</tspan></text>
-    <text class="cls-14" transform="translate(-47.95 85.66)"><tspan x="0" y="0">∫</tspan></text>
-  </g>
-  <g id="more_than_sum" data-name="more than sum">
-    <text class="cls-18" transform="translate(87.7 -16.96)"><tspan class="cls-12" x="0" y="0"> </tspan><tspan class="cls-2" x="14.46" y="0">&gt;</tspan><tspan class="cls-8" x="57.4" y="0">∑</tspan></text>
-  </g>
-  <g id="more_than_tight" data-name="more than tight">
-    <text class="cls-19" transform="translate(-16.67 -10.54)"><tspan class="cls-13" x="0" y="0"> </tspan><tspan class="cls-5" x="16.87" y="0">&gt;</tspan><tspan class="cls-9" x="50.21" y="0">∑</tspan></text>
-  </g>
-  <g id="more_than_tighter" data-name="more than tighter">
-    <text class="cls-16" transform="translate(-122.04 -2.19)"><tspan class="cls-15" x="0" y="0"> </tspan><tspan class="cls-4" x="20.3" y="0">&gt;</tspan><tspan class="cls-11" x="40.27" y="0">∑</tspan></text>
+    <g>
+      <path class="cls-2" d="m7.21,28.58v-14.27h14.27v14.27H7.21Zm14.27,42.81v14.27H7.21v-14.27h14.27Zm0-28.54v-14.27h14.27v14.27h-14.27Zm14.27,28.54h-14.27v-14.27h14.27v14.27Zm0-28.54h14.27v14.27h-14.27v-14.27Z"/>
+      <path class="cls-1" d="m64.41,85.66v14.27h-14.27v-14.27h14.27Zm14.27,0h-14.27V14.3h14.27v71.36Zm0-71.36V.03h14.27v14.27h-14.27Z"/>
+    </g>
   </g>
 </svg>

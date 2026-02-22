@@ -27,8 +27,8 @@ html,body{font-family:"Funnel Display",sans-serif; font-weight:300; font-size:15
 html{overflow-x:hidden}
 h1{font-family:"Funnel Display", sans-serif; font-weight:500; font-size:clamp(1.1rem, 4.4vw, 32px); margin: 0px 20px; color:#eeeeee}
 h2{font-family:"Funnel Display",sans-serif; font-weight:300; font-size:clamp(1rem, 4vw, 20px); margin: 0px 40px}
-h3{font-weight:500 ;font-size:18px; margin-left: 5px}
-h4{font-weight:400; font-size:16px; margin-left: 15px; opacity:0.7}
+h3{font-weight:500 ;font-size:18px; margin-left: 5px;margin-top:0.2em; margin-bottom:0.2em}
+h4{font-weight:400; font-size:16px; margin-left: 15px;margin-top:0px; margin-bottom:0.5em; opacity:0.7}
 h5{font-size:18px; margin-left: 0px}
 h6{font-size:16px; margin-left: 0px}
 figure {opacity:0.8}
@@ -44,7 +44,7 @@ figcaption{position: relative; top:-100%; width:100%; height:100%; background-co
 ul{list-style-position: outside; margin: 0em; padding: 0;}
 li::marker {content:"\25AA\fe0e   "; color:#c81c82; -webkit-appearance: none}
 .thumb-card:hover {cursor:zoom-in}
-.thumb-label {padding:0.01em 16px; color: #000000;}
+.thumb-label {padding:0.001em 16px; color: #000000;}
 .card-transparent,.w3-hover-light-transparent:hover{color:#000!important;background-color:#ffffff70!important}
 .detail {display:none}
 .detail-view{cursor:zoom-out; z-index:3;display:none;padding-top:20px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgba(0,0,0,0.4)}
